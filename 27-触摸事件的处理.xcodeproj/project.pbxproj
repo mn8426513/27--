@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BEF06A19E8462B00BC52AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BEF06919E8462B00BC52AE /* main.m */; };
+		04BEF06D19E8462B00BC52AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BEF06C19E8462B00BC52AE /* AppDelegate.m */; };
+		04BEF07019E8462B00BC52AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BEF06F19E8462B00BC52AE /* ViewController.m */; };
+		04BEF07319E8462B00BC52AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BEF07119E8462B00BC52AE /* Main.storyboard */; };
+		04BEF07519E8462B00BC52AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BEF07419E8462B00BC52AE /* Images.xcassets */; };
+		04BEF08119E8462B00BC52AE /* _7________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BEF08019E8462B00BC52AE /* _7________Tests.m */; };
+		04BEF08C19E8469600BC52AE /* Xiaohan.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BEF08B19E8469600BC52AE /* Xiaohan.m */; };
+		04BEF08F19E8476D00BC52AE /* MN.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BEF08E19E8476D00BC52AE /* MN.m */; };
+		04BEF09119E84DC200BC52AE /* xiaohan.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BEF09019E84DC200BC52AE /* xiaohan.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BEF07B19E8462B00BC52AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BEF05C19E8462B00BC52AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BEF06319E8462B00BC52AE;
+			remoteInfo = "27-触摸事件的处理";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BEF06419E8462B00BC52AE /* 27-触摸事件的处理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "27-触摸事件的处理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BEF06819E8462B00BC52AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BEF06919E8462B00BC52AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04BEF06B19E8462B00BC52AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04BEF06C19E8462B00BC52AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04BEF06E19E8462B00BC52AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04BEF06F19E8462B00BC52AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04BEF07219E8462B00BC52AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04BEF07419E8462B00BC52AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04BEF07A19E8462B00BC52AE /* 27-触摸事件的处理Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "27-触摸事件的处理Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BEF07F19E8462B00BC52AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BEF08019E8462B00BC52AE /* _7________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_7________Tests.m"; sourceTree = "<group>"; };
+		04BEF08A19E8469600BC52AE /* Xiaohan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Xiaohan.h; path = ../Xiaohan.h; sourceTree = "<group>"; };
+		04BEF08B19E8469600BC52AE /* Xiaohan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Xiaohan.m; path = ../Xiaohan.m; sourceTree = "<group>"; };
+		04BEF08D19E8476D00BC52AE /* MN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MN.h; sourceTree = "<group>"; };
+		04BEF08E19E8476D00BC52AE /* MN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MN.m; sourceTree = "<group>"; };
+		04BEF09019E84DC200BC52AE /* xiaohan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaohan.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BEF06119E8462B00BC52AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BEF07719E8462B00BC52AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BEF05B19E8462B00BC52AE = {
+			isa = PBXGroup;
+			children = (
+				04BEF06619E8462B00BC52AE /* 27-触摸事件的处理 */,
+				04BEF07D19E8462B00BC52AE /* 27-触摸事件的处理Tests */,
+				04BEF06519E8462B00BC52AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04BEF06519E8462B00BC52AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BEF06419E8462B00BC52AE /* 27-触摸事件的处理.app */,
+				04BEF07A19E8462B00BC52AE /* 27-触摸事件的处理Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BEF06619E8462B00BC52AE /* 27-触摸事件的处理 */ = {
+			isa = PBXGroup;
+			children = (
+				04BEF08A19E8469600BC52AE /* Xiaohan.h */,
+				04BEF08B19E8469600BC52AE /* Xiaohan.m */,
+				04BEF06B19E8462B00BC52AE /* AppDelegate.h */,
+				04BEF06C19E8462B00BC52AE /* AppDelegate.m */,
+				04BEF06E19E8462B00BC52AE /* ViewController.h */,
+				04BEF06F19E8462B00BC52AE /* ViewController.m */,
+				04BEF07119E8462B00BC52AE /* Main.storyboard */,
+				04BEF07419E8462B00BC52AE /* Images.xcassets */,
+				04BEF09019E84DC200BC52AE /* xiaohan.png */,
+				04BEF06719E8462B00BC52AE /* Supporting Files */,
+				04BEF08D19E8476D00BC52AE /* MN.h */,
+				04BEF08E19E8476D00BC52AE /* MN.m */,
+			);
+			path = "27-触摸事件的处理";
+			sourceTree = "<group>";
+		};
+		04BEF06719E8462B00BC52AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BEF06819E8462B00BC52AE /* Info.plist */,
+				04BEF06919E8462B00BC52AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04BEF07D19E8462B00BC52AE /* 27-触摸事件的处理Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04BEF08019E8462B00BC52AE /* _7________Tests.m */,
+				04BEF07E19E8462B00BC52AE /* Supporting Files */,
+			);
+			path = "27-触摸事件的处理Tests";
+			sourceTree = "<group>";
+		};
+		04BEF07E19E8462B00BC52AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BEF07F19E8462B00BC52AE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BEF06319E8462B00BC52AE /* 27-触摸事件的处理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BEF08419E8462B00BC52AE /* Build configuration list for PBXNativeTarget "27-触摸事件的处理" */;
+			buildPhases = (
+				04BEF06019E8462B00BC52AE /* Sources */,
+				04BEF06119E8462B00BC52AE /* Frameworks */,
+				04BEF06219E8462B00BC52AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "27-触摸事件的处理";
+			productName = "27-触摸事件的处理";
+			productReference = 04BEF06419E8462B00BC52AE /* 27-触摸事件的处理.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04BEF07919E8462B00BC52AE /* 27-触摸事件的处理Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BEF08719E8462B00BC52AE /* Build configuration list for PBXNativeTarget "27-触摸事件的处理Tests" */;
+			buildPhases = (
+				04BEF07619E8462B00BC52AE /* Sources */,
+				04BEF07719E8462B00BC52AE /* Frameworks */,
+				04BEF07819E8462B00BC52AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BEF07C19E8462B00BC52AE /* PBXTargetDependency */,
+			);
+			name = "27-触摸事件的处理Tests";
+			productName = "27-触摸事件的处理Tests";
+			productReference = 04BEF07A19E8462B00BC52AE /* 27-触摸事件的处理Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BEF05C19E8462B00BC52AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = MN;
+				TargetAttributes = {
+					04BEF06319E8462B00BC52AE = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					04BEF07919E8462B00BC52AE = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 04BEF06319E8462B00BC52AE;
+					};
+				};
+			};
+			buildConfigurationList = 04BEF05F19E8462B00BC52AE /* Build configuration list for PBXProject "27-触摸事件的处理" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BEF05B19E8462B00BC52AE;
+			productRefGroup = 04BEF06519E8462B00BC52AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BEF06319E8462B00BC52AE /* 27-触摸事件的处理 */,
+				04BEF07919E8462B00BC52AE /* 27-触摸事件的处理Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BEF06219E8462B00BC52AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BEF07319E8462B00BC52AE /* Main.storyboard in Resources */,
+				04BEF09119E84DC200BC52AE /* xiaohan.png in Resources */,
+				04BEF07519E8462B00BC52AE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BEF07819E8462B00BC52AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BEF06019E8462B00BC52AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BEF08C19E8469600BC52AE /* Xiaohan.m in Sources */,
+				04BEF07019E8462B00BC52AE /* ViewController.m in Sources */,
+				04BEF06D19E8462B00BC52AE /* AppDelegate.m in Sources */,
+				04BEF08F19E8476D00BC52AE /* MN.m in Sources */,
+				04BEF06A19E8462B00BC52AE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BEF07619E8462B00BC52AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BEF08119E8462B00BC52AE /* _7________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BEF07C19E8462B00BC52AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BEF06319E8462B00BC52AE /* 27-触摸事件的处理 */;
+			targetProxy = 04BEF07B19E8462B00BC52AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04BEF07119E8462B00BC52AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BEF07219E8462B00BC52AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BEF08219E8462B00BC52AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04BEF08319E8462B00BC52AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BEF08519E8462B00BC52AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "27-触摸事件的处理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04BEF08619E8462B00BC52AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "27-触摸事件的处理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04BEF08819E8462B00BC52AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "27-触摸事件的处理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/27-触摸事件的处理.app/27-触摸事件的处理";
+			};
+			name = Debug;
+		};
+		04BEF08919E8462B00BC52AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "27-触摸事件的处理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/27-触摸事件的处理.app/27-触摸事件的处理";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BEF05F19E8462B00BC52AE /* Build configuration list for PBXProject "27-触摸事件的处理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BEF08219E8462B00BC52AE /* Debug */,
+				04BEF08319E8462B00BC52AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BEF08419E8462B00BC52AE /* Build configuration list for PBXNativeTarget "27-触摸事件的处理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BEF08519E8462B00BC52AE /* Debug */,
+				04BEF08619E8462B00BC52AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04BEF08719E8462B00BC52AE /* Build configuration list for PBXNativeTarget "27-触摸事件的处理Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BEF08819E8462B00BC52AE /* Debug */,
+				04BEF08919E8462B00BC52AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04BEF05C19E8462B00BC52AE /* Project object */;
+}
